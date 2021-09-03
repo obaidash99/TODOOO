@@ -13,6 +13,15 @@ body {
     rgb(99, 192, 235) 100%
   );
 }
+/* .sunPhoto {
+  background-image: url(../img/sun.png);
+}
+.moonPhoto {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+} */
 .wrapper {
   margin: 120px auto;
   max-width: 400px;
@@ -76,7 +85,7 @@ body {
 }
 .todoList li span {
   position: absolute;
-  right: -45px;
+  right: -0px;
   color: #fff;
   width: 45px;
   text-align: center;
@@ -85,9 +94,9 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.todoList li:hover span {
+/* .todoList li:hover span {
   right: 0px;
-}
+/* } */ /* لأنو عالموبايل ما عم يزبط الهوفر */
 .wrapper .footer {
   display: flex;
   width: 100%;

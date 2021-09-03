@@ -2,6 +2,13 @@ let inputBox = document.querySelector(".inputField input");
 let addBtn = document.querySelector(".inputField button");
 let todoList = document.querySelector(".todoList");
 let clearAllBtn = document.querySelector(".footer button");
+// let darkLightMood = document.querySelector(".darkMood .moonPhoto");
+
+
+// darkLightMood.onclick = () => {
+//   let bodyDarkLight = document.querySelector("body");
+//   darkLightMood.classList.toggle(".moonPhoto");
+// };
 
 inputBox.onkeyup = () => {
   let userData = inputBox.value; // ناخد المهام من المستخدم
